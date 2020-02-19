@@ -8,7 +8,7 @@ import datetime
 
 wdays = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"] #using list 
 today = today = datetime.datetime.today().weekday()
-#print("Todays day is :", wdays[today]) #print today day 
+#print("Todays day is :", wdays[today]) #print today day ( i have edited this part) 
 
 if today < 5: 
 
