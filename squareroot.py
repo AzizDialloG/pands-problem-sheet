@@ -33,7 +33,7 @@ approx = float (input("Please enter an approximation value (like 0.01 as example
 #print ('X_{} = {:.8f}' .format(rootsquare,approx))
 #print("The square root of:" ,rootsquare, "is approximately", square_root(rootsquare,approx,))
 print("The square root of" ,rootsquare, "is approximately", square_root (rootsquare,approx))
-#print ('x_{} = {:.8f}' .format(n+1,x_n)) #around to 2 decimal places 
+
 #float("{0:.2f}".format(x))
-#round(14.22222223, 2)
+
     
