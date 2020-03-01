@@ -30,10 +30,8 @@ def square_root(x,y,new_abs=0.01,tolerance = 999999):
 
 rootsquare = float (input("Please enter a positive number:"))
 approx = float (input("Please enter an approximation value (like 0.01 as example:"))
-#print ('X_{} = {:.8f}' .format(rootsquare,approx))
-#print("The square root of:" ,rootsquare, "is approximately", square_root(rootsquare,approx,))
 print("The square root of" ,rootsquare, "is approximately", square_root (rootsquare,approx))
-
 #float("{0:.2f}".format(x))
+#print("The square root of:" ,rootsquare, "is approximately", square_root(rootsquare,approx,))
 
     
