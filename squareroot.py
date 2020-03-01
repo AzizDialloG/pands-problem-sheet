@@ -13,10 +13,10 @@ new_abs= abs- ((abs ** 2 -x)/ (2 * abs))
 tolerance= new_abs - abs
 """
 import math
-def square_root(x,y,new_abs=0.01,tolerance = 999999):
+def square_root(x,y,tolerance =10000):
     abs = x
-    #tolerance = 999999
-    #new_abs=0.01
+    #tolerance = 10000
+    #new_abs=0.0001
     count= 0
     while tolerance > y:
         new_abs= abs- ((abs ** 2 -x)/ (2 * abs))
@@ -29,7 +29,7 @@ def square_root(x,y,new_abs=0.01,tolerance = 999999):
         return abs
 
 rootsquare = float (input("Please enter a positive number:"))
-approx = float (input("Please enter an approximation value (like 0.01 as example:"))
+approx = float (input("Please enter an approximation value (like 0.0001 as example:"))
 print("The square root of" ,rootsquare, "is approximately", square_root (rootsquare,approx))
 #float("{0:.2f}".format(x))
 #print("The square root of:" ,rootsquare, "is approximately", square_root(rootsquare,approx,))
