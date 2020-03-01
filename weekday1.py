@@ -1,4 +1,5 @@
 #Thierno Aziz Diallo
+#Week 5 Task
 """
 Write a program that outputs whether or not today is a weekday.
 An example of running this program on a Thursday is given below
