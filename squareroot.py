@@ -18,7 +18,7 @@ def square_num(number):
     return result
 def square_root(x,y,tolerance = 66666): #define functions
     abs = x
-    #tolerance = 100
+    #tolerance = 66666
     new_abs=0.001
     count= 0
     
