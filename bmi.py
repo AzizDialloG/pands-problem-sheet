@@ -9,9 +9,11 @@ BMI= (weight / (height ** 2)
 
 
 '''
-Height= float (input("Enter your Height in Centimeter:")) #enter the height in centimeter
-Weight=float(input("Enter your Weight in Kilogram:")) # enter the weight in kilogram
+#Getting input from the user and assigning it to user
+height= float (input("Enter your Height in Centimeter:")) #enter the height in centimeter
+weight=float(input("Enter your Weight in Kilogram:")) # enter the weight in kilogram
 
-BMI = Weight / ((Height / 100) ** 2) # BMI formula
+#Formula for calculating bmi
+BMI = weight / ((height / 100) ** 2) # BMI formula
 
 print("Your Body Max Indix is",BMI) #Result of the body max index(BMI)
