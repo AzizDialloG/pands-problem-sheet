@@ -49,4 +49,23 @@ If n is even, divide it by 2.
  # Sources:
  https://www.w3schools.com/python/python_while_loops.asp
  Online videos by the Teacher 
+ 
+ -----------------------------
+#  Weekly task 5
+
+Write a program that outputs whether or not today is a weekday. An example of running this program on a Thursday is given below.
+
+$ python weekday.py
+Yes, unfortunately today is a weekday.
+
+An example of running it on a Saturday is as follows.
+
+$ python weekday.py
+It is the weekend, yay!
+# Solution
+I used list and if statements for this program
+# Sources
+Week 5 online tutorial and some online resources 
+https://pythontic.com/datetime/date/weekday
+https://www.w3schools.com/python/python_conditions.asp
 
