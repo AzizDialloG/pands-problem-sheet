@@ -66,6 +66,8 @@ It is the weekend, yay!
 I used list and if statements for this program
 # Sources
 Week 5 online tutorial and some online resources 
+Recommended reading
+Read Real Python's blog posts on List and Tuples and Dictionaries.
 https://pythontic.com/datetime/date/weekday
 https://www.w3schools.com/python/python_conditions.asp
 
