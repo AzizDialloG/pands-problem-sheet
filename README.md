@@ -19,3 +19,34 @@ https://www.thecalculatorsite.com/articles/health/bmi-formula-for-bmi-calculatio
 
 
 --------
+# Weekly 3 task
+
+ Write a program that takes asks a user to input a string and outputs every second letter in reverse order.
+
+$ python secondstring.py
+Please enter a sentence: The quick brown fox jumps over the lazy dog.
+.o zletrv pu o wr cu h
+# Solution 
+This program prints each second string character, it starts by the last one.
+The simplest way is to use the built in function, len() by following the week 3 videos that were posting by the teacher and book recommended 
+# Sources 
+Recommended reading
+Up to page 9 of A Whirlwind Tour of Python by Jake Vanderplas.
+
+---------------------------------
+# Weekly 4 task
+
+Write a program that asks the user to input any positive integer and outputs the successive values of the following calculation. At each step calculate the next value by taking the current value and, if it is even, divide it by two, but if it is odd, multiply it by three and add one. Have the program end if the current value is one.
+
+$ python collatz.py
+Please enter a positive integer: 10
+10 5 16 8 4 2 1
+# Solution
+Take any natural number n.
+If n is even, divide it by 2.
+ If n is odd multiply it by 3 and add 1.
+ Repeat the process indefinitely.
+ # Sources:
+ https://www.w3schools.com/python/python_while_loops.asp
+ Online videos by the Teacher 
+
