@@ -25,9 +25,9 @@ def square_root(x,y,tolerance = 66666): #define functions
     while tolerance > y:
         new_abs= abs- ((abs ** 2 -x)/ (2 * abs)) #Newton Method
         tolerance= new_abs - abs
-        if tolerance < 0:
+        if tolerance < 0: # This difference value must be positive 
             tolerance *= -1
-            abs = new_abs
+            abs = new_abs # here decide which function to return at the end.
             count = count + 1
     print('Square root calculated in', count,"abs")
     return abs
