@@ -16,12 +16,12 @@ $ python bmi.py
 Enter weight: 65
 Enter height: 180
 BMI is 20.06.
-# Solution
+## Solution
 This program calculates the person body mass index. 
 The inputs are the person's weight in kilograms and height in centimeters.
 The formula is:
 BMI= (weight / (height ** 2)
-# Sources
+## Sources
 https://www.thecalculatorsite.com/articles/health/bmi-formula-for-bmi-calculations.php
 
 
@@ -33,11 +33,11 @@ https://www.thecalculatorsite.com/articles/health/bmi-formula-for-bmi-calculatio
 $ python secondstring.py
 Please enter a sentence: The quick brown fox jumps over the lazy dog.
 .o zletrv pu o wr cu h
-# Solution 
+## Solution 
 This program prints each second string character, it starts by the last one.
 The simplest way is to use the built in function, len() by following the week 3 videos that were posting by the teacher and book recommended 
-# Sources 
-Recommended reading
+## Sources 
+### Recommended reading
 Up to page 9 of A Whirlwind Tour of Python by Jake Vanderplas.
 
 ---------------------------------
@@ -48,13 +48,14 @@ Write a program that asks the user to input any positive integer and outputs the
 $ python collatz.py
 Please enter a positive integer: 10
 10 5 16 8 4 2 1
-# Solution
+## Solution
 Take any natural number n.
 If n is even, divide it by 2.
  If n is odd multiply it by 3 and add 1.
  Repeat the process indefinitely.
- # Sources:
+ ## Sources:
  https://www.w3schools.com/python/python_while_loops.asp
+ 
  Online videos by the Teacher 
  
  -----------------------------
@@ -72,10 +73,13 @@ It is the weekend, yay!
 # Solution
 I used list and if statements for this program
 # Sources:
-Week 5 online tutorial and some online resources 
+### Week 5 online tutorial and some online resources 
 Recommended reading
+
 Read Real Python's blog posts on List and Tuples and Dictionaries.
+
 https://pythontic.com/datetime/date/weekday
+
 https://www.w3schools.com/python/python_conditions.asp
 --------------------------------------
 # Weekly task 6
@@ -85,43 +89,54 @@ https://www.w3schools.com/python/python_conditions.asp
 $ python squareroot.py
 Please enter a positive number: 14.5
 The square root of 14.5 is approx. 3.8
-# Solution
+## Solution
 I used the Newtown's method, the program takes a positive floating point num as an input and outputs an approximation of its square root.
-# Sources:
+## Sources:
 Week 6 online tutorial and some online resources 
+
 http://danielhomola.com/2016/02/09/newtons-method-with-10-lines-of-python/
+
 https://www.youtube.com/playlist?list=PL3DE5C8688C5E7CAF
 ----------------------
 # Weekly task 7
 Write a program that reads in a text file and outputs the number of e's it contains.
 The program should take the filename from an argument on the command line
 $ python read_a_text_file.py 
-# Solution
+## Solution
 This program outputs the number of e's it contains.
-# Requirement:
+## Requirement:
 The file must be in the same folder.
-# Sources:
+## Sources:
 Week 7 online tutorial and some online resources 
+
 http://ccat.sas.upenn.edu/gopher/text/fiction/MobyDick/
+
 https://www.datacamp.com/projects
 ----------------------------------
 # Weekly task 8
 Write a program that displays a plot of the functions 
 f(x)=x, g(x)=x2 and h(x)=x3 in the range [0, 4] on the one set of axes.
 $ chart.py
-# Solution
+## Solution
 The program plots a chart on the screen based on f(x)=x, g(x)=x2 and h(x)=x3.
-# Requirements:
+## Requirements:
 To fully run this program, we will need to install numpy and matplolib.
 If numpy and matplotlib are not imported will get :
+
     ModuleNotFoundError: No module name 'numpy'
+    
     ModuleNotFoundError: No module name 'matplotlib'
-# Sources:
+## Sources:
 Week 8 online tutorial and some online resources 
+
 https://www.mathworks.com/help/matlab/ref/fplot.html
+
 https://matplotlib.org/tutorials/introductory/pyplot.html
+
 https://matplotlib.org/api/pyplot_api.html
+
 https://stackoverflow.com/questions/38666527/what-is-the-necessity-of-plt-figure-in-matplotlib
+
 https://scipy-lectures.org/intro/matplotlib/index.html
 
 
