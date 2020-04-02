@@ -73,7 +73,7 @@ It is the weekend, yay!
 # Solution
 I used list and if statements for this program
 # Sources:
-### Week 5 online tutorial and some online resources 
+Week 5 online tutorial and some online resources 
 Recommended reading
 
 Read Real Python's blog posts on List and Tuples and Dictionaries.
