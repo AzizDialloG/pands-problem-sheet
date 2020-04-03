@@ -24,11 +24,10 @@ plt.ylabel ("Y", fontsize =20) #shows the name for y axis
 plt.plot (x,y1, 'g.', label = "f(x) = x") #Ploting f(x)=x
 plt.plot (x,y2, 'y.', label = "g(x) = x**2") #Ploting g(x)=x2
 plt.plot (x,y3, 'b.', label = "h(x) = x**3") #Ploting h(x)=x3
-plt.legend(loc = 'upper left' , fontsize = '14')
+plt.legend(loc = 'upper left' , fontsize = '14') # Add a legend
 plt.grid(True) # drawving a grid on the plot 
 
-# plt.plot([1, 2, 3, 4])
-#plt.ylabel('some numbers')
+
 plt.show() # Display the plot on the screen
 
 '''
